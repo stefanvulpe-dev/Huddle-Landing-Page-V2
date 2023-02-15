@@ -22,19 +22,20 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop-view-141405.png)
-![](./screenshots/desktop-view-141417.png)
-![](./screenshots/desktop-view-141420.png)
-![](./screenshots/mobileview-141441.png)
-![](./screenshots/mobileview-141447.png)
-![](./screenshots/mobileview-141503.png)
-![](./screenshots/mobileview-141507.png)
+![](./screenshots/desktop-view-145058.png)
+![](./screenshots/desktop-view-145103.png)
+![](./screenshots/desktop-view-145114.png)
+![](./screenshots/mobile-view-145231.png)
+![](./screenshots/mobile-view-145239.png)
+![](./screenshots/mobile-view-145247.png)
+![](./screenshots/mobile-view-145302.png)
+![](./screenshots/mobile-view-145340.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [URL](https://github.com/stefanvulpe-dev/Huddle-Landing-Page-V2)
+- Live Site URL: [URL](https://your-live-site-url.com)
 
 ## My process
 

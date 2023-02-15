@@ -1,6 +1,5 @@
 @include media-md {
     .hero-wrapper {
-        gap: 3.5rem;
         background-image: url('../images/bg-hero-desktop.svg');
         background-position: center;
         background-size: cover;
@@ -8,10 +7,6 @@
 }
 
 @include media-lg {
-    .hero-wrapper {
-        min-height: 35em;
-    }
-
     .hero {
         gap: 1rem;
         grid-template-columns: repeat(3, 1fr);
@@ -49,13 +44,14 @@
             justify-self: start;
             align-self: start;
             grid-column: 1 / 1;
-            margin-left: 2.5rem;
+            margin-inline: 2.5rem;
         }
 
         .mockup-img {
             grid-column: 2 / -1;
             grid-row: 2 / 5;
-            margin-right: 2.5rem;
+            margin-inline: auto;
+            min-width: 80%;
         }
     }
 
