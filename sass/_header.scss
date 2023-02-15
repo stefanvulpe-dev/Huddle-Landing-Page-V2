@@ -1,0 +1,74 @@
+.hero-wrapper {
+    min-height: 100vh;
+    background-color: map-get($colors, neutral-pale);
+    background-image: url('../images/bg-hero-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom 2rem;
+}
+
+.hero {
+    width: min(100%, 90em);
+    display: grid;
+    gap: 1.5rem;
+    margin: 0 auto;
+    align-items: center;
+
+    &__action {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .page-logo {
+            width: min(30%, 14em);
+            margin-left: 1rem;
+        }
+
+        &--link {
+            margin-right: 1rem;
+            padding: 0.25rem 1.5rem;
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 2rem;
+            box-shadow: 0 0 0.65rem map-get($colors, neutral-blue);
+            transition: color 350ms ease-in-out;
+        }
+
+        &--link:hover, &--link:focus {
+            color: map-get($colors, neutral-blue);
+        }
+    }
+
+    &__title {
+        padding-top: 2.5rem;
+        text-align: center;
+        justify-self: center;
+        width: 20ch;
+    }
+
+    &__description {
+        justify-self: center;
+        width: min(65%, 55ch);
+        text-align: center;
+    }
+
+    &__main--link {
+        justify-self: center;
+        padding: 0.75rem 4rem;
+        background-color: map-get($colors, primary);
+        border-radius: 2rem;
+        box-shadow: 0 0 0.75rem map-get($colors, neutral-blue);
+        transition: opacity 350ms ease-in-out;
+    }
+
+    &__main--link:hover, &__main--link:focus {
+        opacity: 80%;
+    }
+
+    .mockup-img {
+        margin-inline: auto;
+        padding-block: 2rem;
+        width: min(80%, 37.5em);
+    }
+
+}

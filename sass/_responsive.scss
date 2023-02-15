@@ -1,0 +1,88 @@
+@include media-md {
+    .hero-wrapper {
+        gap: 3.5rem;
+        background-image: url('../images/bg-hero-desktop.svg');
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@include media-lg {
+    .hero-wrapper {
+        min-height: 35em;
+    }
+
+    .hero {
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+
+        &__action {
+            grid-column: 1 / span 3;
+            
+            .page-logo {
+                margin-left: 2.5rem;
+            }
+
+            &--link {
+                padding: 0.65rem 3rem;
+                margin-right: 2.5rem;
+            }
+        }
+
+        &__title {
+            padding-top: 5rem;
+            grid-column: 1 / 2;
+            justify-self: center;
+            text-align: start;
+        }
+
+        &__description {
+            grid-column: 1 / 2;
+            text-align: start;
+            width: 50ch;
+            justify-self: center;
+            align-self: start;
+            margin-left: 2.5rem;
+        }
+    
+        &__main--link {
+            justify-self: start;
+            align-self: start;
+            grid-column: 1 / 1;
+            margin-left: 2.5rem;
+        }
+
+        .mockup-img {
+            grid-column: 2 / -1;
+            grid-row: 2 / 5;
+            margin-right: 2.5rem;
+        }
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        &__logo {
+            grid-column: 1 / -1;
+        }
+
+        &__description--list {
+            grid-column: 1 / 2;
+            grid-row: 2 / 4;
+        }
+
+        &-nav__list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &__social--links {
+            align-self: start;
+        }
+    }
+
+    .attribution {
+        grid-column: 3 / 4;
+    }
+}
