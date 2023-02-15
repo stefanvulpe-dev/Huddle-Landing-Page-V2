@@ -28,7 +28,6 @@ Users should be able to:
 ![](./screenshots/mobile-view-145231.png)
 ![](./screenshots/mobile-view-145239.png)
 ![](./screenshots/mobile-view-145247.png)
-![](./screenshots/mobile-view-145302.png)
 ![](./screenshots/mobile-view-145340.png)
 
 
