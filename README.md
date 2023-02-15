@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [URL](https://github.com/stefanvulpe-dev/Huddle-Landing-Page-V2)
-- Live Site URL: [URL](https://your-live-site-url.com)
+- Live Site URL: [URL](https://stefanvulpe-dev.github.io/Huddle-Landing-Page-V2/)
 
 ## My process
 
